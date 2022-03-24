@@ -29,5 +29,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: ;
+    background-image:url(images/Images/Robert\ Johnson\ Hero\ IMG\ 2.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
