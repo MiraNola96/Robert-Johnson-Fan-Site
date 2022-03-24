@@ -1,0 +1,33 @@
+nav {
+    background: #081f40;
+    border-bottom: #c21f32;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 0;
+  }
+  
+  li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+  }
+  
+  li a:hover {
+    background:#c21f32;
+    border-bottom: 3px solid #EAAB22;
+    color:#EAAB22;
+  }
+/*NAVBAR*/
+
+.hero {
+    Width:100%;
+    Height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: ;
+}
