@@ -1,6 +1,7 @@
 nav {
     background: #081f40;
-    border-bottom: #c21f32;
+    display: flex;
+    justify-content: space-between;
   }
   
   nav ul li {
@@ -13,10 +14,10 @@ nav {
     text-decoration: none;
     color: white;
     padding: 15px;
+    font-size: 20px;
   }
   
   li a:hover {
-    background:#c21f32;
     border-bottom: 3px solid #EAAB22;
     color:#EAAB22;
   }
@@ -24,7 +25,7 @@ nav {
 
 .hero {
     Width:100%;
-    Height:70vh;
+    Height:90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,4 +34,18 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hero h1 {
+  color: #C21F32;
+  background: #081f40;
+  display: flex;
+  justify-content: right;
+}
+
+.hero h2 {
+  color: #EAAB22;
+  background: #081f40;
+  display: flex;
+  justify-content: right;
 }
