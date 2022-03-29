@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
 nav {
     background: #081f40;
     display: flex;
@@ -11,6 +14,7 @@ nav {
   }
   
   li a{
+    font-family:'Abril Fatface', cursive;
     text-decoration: none;
     color: white;
     padding: 15px;
@@ -26,26 +30,36 @@ nav {
 .hero {
     Width:100%;
     Height:90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-image:url(images/Images/Robert\ Johnson\ Hero\ IMG\ 2.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.box {
+  height: 100px;
+  width: 300px;
+  background:rgba(8, 31, 64, .8);
+  position: absolute;
+  bottom: 20vh;
+  right: 15px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .hero h1 {
+  font-family: 'Abril Fatface', cursive;
   color: #C21F32;
-  background: #081f40;
-  display: flex;
-  justify-content: right;
+  margin: 5px;
 }
 
 .hero h2 {
   color: #EAAB22;
   background: #081f40;
-  display: flex;
-  justify-content: right;
+  margin: 0;
 }
