@@ -38,18 +38,17 @@ nav {
 }
 
 .box {
-  height: 100px;
+  height: 150px;
   width: 300px;
   background:rgba(8, 31, 64, .8);
   position: absolute;
-  bottom: 20vh;
-  right: 15px;
+  bottom: 30vh;
+  right: 10px;
   text-align:center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .hero h1 {
@@ -60,6 +59,5 @@ nav {
 
 .hero h2 {
   color: #EAAB22;
-  background: #081f40;
   margin: 0;
 }
