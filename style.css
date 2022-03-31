@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
+body {
+  background-color: #081f40;
+}
 
 nav {
     background: #081f40;
@@ -28,9 +31,8 @@ nav {
 /*NAVBAR*/
 
 .hero {
-    Width:100%;
     Height:90vh;
-    background-image:url(images/Images/Robert\ Johnson\ Hero\ IMG\ 2.jpg) ;
+    background-image:url(images/hero-image.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,3 +63,8 @@ nav {
   color: #EAAB22;
   margin: 0;
 }
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align:center;
+  color: #C21F32;
