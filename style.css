@@ -9,7 +9,13 @@ nav {
     display: flex;
     justify-content: space-between;
   }
-  
+
+
+  .navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
   nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -41,7 +47,7 @@ nav {
 
 .box {
   height: 150px;
-  width: 300px;
+  width: 600px;
   background:rgba(8, 31, 64, .8);
   position: absolute;
   bottom: 30vh;
@@ -97,9 +103,19 @@ padding-bottom: 10px;
 }
 
 .hero2 {
-  height:100vh;
   background-image: url(images/Robert\ Johnson\ 2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 } 
+
+.box2 {
+  background-color: rgba(8, 31, 64, .8);
+  height: 1000px;
+  width: 1000px;
+  border-radius: 25px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
